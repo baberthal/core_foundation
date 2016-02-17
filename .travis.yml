@@ -1,4 +1,14 @@
 language: ruby
+
+sudo: false
+
 rvm:
   - 2.3.0
+
+os:
+  - linux
+  - osx
+
+bundler_args: --without local
+
 before_install: gem install bundler -v 1.11.2
