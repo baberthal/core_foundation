@@ -1,4 +1,5 @@
 # CoreFoundation
+[![Build Status](https://travis-ci.org/baberthal/core_foundation.svg?branch=master)](https://travis-ci.org/baberthal/core_foundation)
 
 A set of ruby bindings for Apple's CoreFoundation Library.
 
