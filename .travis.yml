@@ -4,6 +4,9 @@ sudo: false
 
 rvm:
   - 2.3.0
+  - 2.3.0-clang
+  - ruby-head
+  - ruby-head-clang
 
 os:
   - linux
@@ -12,3 +15,15 @@ os:
 bundler_args: --without local
 
 before_install: gem install bundler -v 1.11.2
+
+matrix:
+  allow_failures:
+  - os: osx
+    rvm: 2.3.0
+  - os: osx
+    rvm: 2.3.0-clang
+  exclude:
+  - os: linux
+    rvm: ruby-head
+  - os: linux
+    rvm: ruby-head-clang
