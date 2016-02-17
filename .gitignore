@@ -89,3 +89,4 @@ Session.vim
 .netrwhist
 *~
 
+.rake_tasks

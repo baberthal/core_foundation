@@ -1,0 +1,6 @@
+Documentation:
+  Enabled: false
+
+require: rubocop-rspec
+
+#  vim: set ts=8 sw=2 tw=0 ft=yaml et :
